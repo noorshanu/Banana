@@ -19,7 +19,7 @@
 .roadmap .roadmap-road::before {
     content: "";
     position: absolute;
-    top: 0%;
+    top: -1.6%;
     left: 50%;
     transform: translateX(-50%);
     width: 0.1875rem;
@@ -40,7 +40,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(90deg, rgba(65, 97, 252, 0) 0%, #4272f8 17.5%, #45b0e8 79.48%, rgba(70, 197, 227, 0) 100%);
+  background: linear-gradient(90deg, rgba(65, 97, 252, 0) 0%, #d0d31d 17.5%, #e1de08 79.48%, rgba(70, 197, 227, 0) 100%);
   height: 0.125rem;
 }
 
@@ -289,9 +289,12 @@ font-size: 55px;
 color: #FFFFFF;
   }
   .road-head img{
-    margin-top: -3%;
+    margin-top: -2%;
     z-index: -8;
     position: absolute;
-    left: 35%;
+    width: 23.5%;
+   
+    left: 37.9%;
     box-shadow: 10px 5px 49px 4px rgb(213 170 30 / 93%);
+
   }
