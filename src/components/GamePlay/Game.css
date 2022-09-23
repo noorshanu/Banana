@@ -1,0 +1,77 @@
+.game-play{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.head-game{
+    background-image: url(../../images/game.png);
+ 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 13%;
+    padding-bottom: 10%;
+
+}
+.head-game h1{
+    font-family: 'Poppins';
+font-style: italic;
+font-weight: 800;
+font-size: 75px;
+
+}
+.head-game img{
+    margin-top: -3%;
+    z-index: -8;
+    position: absolute;
+    left: 35%;
+    box-shadow: 10px 5px 49px 4px rgb(213 170 30 / 93%);
+}
+.game-box{
+    background: linear-gradient(180deg, #E0E0E0 0%, #ABABAB 100%);
+    border-radius: 40px;
+    padding: 0% 2% 5% 2%;
+    margin: 2%;
+}
+.game-box-img{
+    position: absolute;
+    width: 10%;
+    padding: 2%;
+    margin-top: -5%;
+    margin-left: 4.4%;
+    background: linear-gradient(180deg, #3D3D3D 0%, #000000 100%);
+    box-shadow: 0px 13px 51px rgb(0 0 0 / 50%);
+    border-radius: 20px;
+}
+.game-box-title{
+    background: linear-gradient(180deg, #FDDC6E 0%, #D4A91E 100%);
+    box-shadow: 0px 0px 53px rgb(0 0 0 / 25%);
+    border-radius: 40px;
+    padding: 25% 2% 11% 2%;
+    width: 104%;
+    margin-left: -6px;
+    height: 100%;
+}
+.game-box-para{
+    padding-top: 11%;
+    text-align: justify;
+    padding-left: 7%;
+    font-size: 15px;
+    padding-right: 7%;
+}
+.lets-talk{
+    background-image: url(../../images/game.png);
+ 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 13%;
+    padding-bottom: 10%;
+}
+.lets-talk img{
+    height: 150px;
+}
+.lets-talk h2{
+    font-weight: 800;
+font-size: 20px;
+}
