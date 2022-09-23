@@ -15,11 +15,11 @@ function Footer() {
      
       <div className='container'>
         <div className='row'>
-          <div className='col-md-3'>
+          <div className='col-md-3 col-6'>
             <img src={Logo} alt='' className='footer-logo'/>
           </div>
 
-          <div className='col-md-3'>
+          <div className='col-md-3 col-6'>
             <div className='footer-nav'>
               <a href='/'><p>How to Play</p></a>
               <a href='/'><p>Whitepaper</p></a>
@@ -30,7 +30,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className='col-md-3'>
+          <div className='col-md-3 col-6'>
           <div className='footer-nav'>
               <a href='/'><p>About Us</p></a>
               <a href='/'><p>Disclaimer</p></a>
@@ -42,7 +42,7 @@ function Footer() {
 
           </div>
 
-          <div className='col-md-3'>
+          <div className='col-md-3 col-6'>
             <div className='footer-nav'>
               <span>Subscribe to our newsletter to get all the updates and announcements</span>
               <div className='d-flex footer-form justify-content-evenly'>
