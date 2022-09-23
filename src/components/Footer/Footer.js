@@ -1,6 +1,10 @@
 import React from 'react'
 import Logo from '../../images/logo.png'
 import Insta from '../../images/icon/insta.png'
+import Tweet from '../../images/icon/tweet.png'
+import Git from '../../images/icon/github.png'
+import Discord from '../../images//icon/discord.png'
+import Youtube from '../../images/icon/youtube.png'
 import './Footer.css'
 
 function Footer() {
@@ -42,8 +46,12 @@ function Footer() {
                 <button>Subscribe</button>
 
               </div>
-              <div className='footer-social'>
+              <div className='footer-social d-flex justify-content-evenly'>
                 <a href='/'><img src={Insta} alt=''/></a>
+                <a href='/'><img src={Tweet} alt=''/></a>
+                <a href='/'><img src={Discord} alt=''/></a>
+                <a href='/'><img src={Git} alt=''/></a>
+                <a href='/'><img src={Youtube} alt=''/></a>
 
               </div>
             </div>
