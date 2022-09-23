@@ -7,7 +7,7 @@ function Partner() {
     <section className='partner'>
       <div className='container'>
         <div className='partner-head text-center'>
-          <h1>Partner</h1>
+          <h1>Partners and Backers</h1>
 
         </div>
         <div className='row'>
