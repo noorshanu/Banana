@@ -8,6 +8,7 @@
 
 body{
   font-family: 'Poppins', sans-serif !important;
-  background: #1e1e1e !important;
+  background: linear-gradient(180deg, #1F1F1F 0%, #000000 100%) !important;
+
   color: #fff !important;
 }

@@ -1,0 +1,48 @@
+.footer-box{
+    padding: 2% 0% 2% 0%;
+    border-top: 3px solid #feee37;
+    border-bottom: 1px solid #969696;
+    max-width: 88%;
+    margin: auto;
+
+}
+.footer .footer-box .container .row{
+    padding-top: 5%;
+}
+.footer .footer-box .container .row .col-md-3{
+    padding-bottom: 3%;
+}
+.copyright{
+    padding: 1%;
+    font-size: 12px;
+}
+.footer-logo{
+    height: 70px;
+}
+.footer-nav{
+    font-size: 15px;
+    line-height: 17px;
+}
+.fs-14{
+    font-size: 13px;
+}
+.footer-form input{
+    border: 2px solid;
+   
+    background: transparent;
+    border-color: yellow;
+    border-radius: 7px;
+    height: 36px;
+}
+.footer-form button{
+    background: linear-gradient(180deg, #FDDC6E 0%, #D4A91E 100%);
+    border-radius: 10px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    padding: 2% 2.5% 2% 2.5%;
+}
+.footer-form{
+    padding: 4% 0% 7% 0%;
+}
+.footer-social img{
+    height: 24px;
+}

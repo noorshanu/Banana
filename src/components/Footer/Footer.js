@@ -10,24 +10,28 @@ import './Footer.css'
 function Footer() {
   return (
     <footer className='footer'>
+      <div className='footer-box'>
+
+     
       <div className='container'>
         <div className='row'>
           <div className='col-md-3'>
-            <img src={Logo} alt=''/>
+            <img src={Logo} alt='' className='footer-logo'/>
           </div>
 
           <div className='col-md-3'>
-            <div>
+            <div className='footer-nav'>
               <a href='/'><p>How to Play</p></a>
               <a href='/'><p>Whitepaper</p></a>
               <a href='/'><p>Features</p></a>
               <a href='/'><p>Blog</p></a>
               <a href='/'><p>Pitchdeck</p></a>
+              <a href='/'><p>Partners</p></a>
             </div>
           </div>
 
           <div className='col-md-3'>
-          <div>
+          <div className='footer-nav'>
               <a href='/'><p>About Us</p></a>
               <a href='/'><p>Disclaimer</p></a>
               <a href='/'><p>FAQ</p></a>
@@ -39,9 +43,9 @@ function Footer() {
           </div>
 
           <div className='col-md-3'>
-            <div>
+            <div className='footer-nav'>
               <span>Subscribe to our newsletter to get all the updates and announcements</span>
-              <div className='d-flex'>
+              <div className='d-flex footer-form justify-content-evenly'>
                 <input type="text" name="" value=""/>
                 <button>Subscribe</button>
 
@@ -59,7 +63,7 @@ function Footer() {
           </div>
 
         </div>
-<div className='d-flex'>
+<div className='d-flex justify-content-evenly fs-14'>
   <p>
   Business Inquiries - business@bananacoin.com
   </p>
@@ -67,6 +71,13 @@ function Footer() {
 Support - support@bananacoin.com
 </p>
 </div>
+      </div>
+      </div>
+      <div className='container'>
+        <div className='text-center copyright '>
+          <span>© 2022 - All rights reserved. Banana Coin Inc.</span>
+        </div>
+
       </div>
       </footer>
   )
