@@ -1,16 +1,20 @@
 import React from 'react'
 import './Roadmap.css'
-import RoadmapImg from '../../images/roadmap-connector.svg'
+import Line from '../../images/line2.png'
+import RoadmapImg from '../../images/roadmap-connector.png'
 
 function Roadmap() {
   return (
     <section className='roadmap'>
       <div className='container'>
-        <div className='road-head'>
-          <h1>ROADMAP</h1>
-        </div>
+      
         <div className='box'>
+        <div className='road-head text-center'>
+          <h1>ROADMAP</h1>
+          <img src={Line} alt=''/>
+        </div>
       <main className='roadmap-road'>
+
       <div className="left-roadmap">
               <div className="roadmap-card">
                 <div className="roadmap-mobile-line"></div>

@@ -23,8 +23,9 @@
     left: 50%;
     transform: translateX(-50%);
     width: 0.1875rem;
+    border: 2px solid rgba(253, 220, 110, 1);
     height: 92%;
-    background: linear-gradient(#4161fc, #46c5e3);
+    background: yellow;
   }
 
   .roadmap .roadmap-road .left-roadmap > :not(:last-child),
@@ -277,4 +278,20 @@
 
   .road-mob{
     display: none;
+  }
+
+  .road-head h1{
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 800;
+font-size: 55px;
+
+color: #FFFFFF;
+  }
+  .road-head img{
+    margin-top: -3%;
+    z-index: -8;
+    position: absolute;
+    left: 35%;
+    box-shadow: 10px 5px 49px 4px rgb(213 170 30 / 93%);
   }
