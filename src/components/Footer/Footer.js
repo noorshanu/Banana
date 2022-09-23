@@ -59,7 +59,14 @@ function Footer() {
           </div>
 
         </div>
-
+<div className='d-flex'>
+  <p>
+  Business Inquiries - business@bananacoin.com
+  </p>
+<p>
+Support - support@bananacoin.com
+</p>
+</div>
       </div>
       </footer>
   )
