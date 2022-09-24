@@ -68,3 +68,8 @@ text-transform: capitalize;
 .pt-10{
     padding-top: 11%;
 }
+
+@media (max-width:768px) {
+    
+    
+}

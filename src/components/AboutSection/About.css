@@ -62,3 +62,48 @@
     padding-top: 8%;
     padding-bottom: 5%;
 }
+
+
+@media (max-width:768px) {
+    .sub-about-box p {
+        font-size: 11px;
+        max-width: 48%;
+    }
+    .p-1 {
+       
+        top: 126px;
+        left: 21px;
+        
+    }
+    .p-2{
+        left: -3px;
+    }
+    .p-3 {
+   
+        top: -109px;
+        left: -7px;
+        max-width: 44% !important;
+    }
+    .p-4 {
+        position: relative;
+        left: 48px;
+        top: -116px;
+    }
+    .sub-about-box img {
+        height: 271px;
+        
+      }   
+      
+      .about-sub p{
+        font-size: 12px;
+      }
+      .right-border {
+        border-right: none;
+        border-bottom: 4px solid yellow;
+        text-align: center;
+    }
+
+    .mob-1{
+        text-align: center;
+    }
+}

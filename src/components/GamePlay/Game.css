@@ -78,3 +78,25 @@ font-size: 75px;
     font-weight: 800;
 font-size: 20px;
 }
+
+@media (max-width:768px) {
+    .head-game h1{
+        font-size: 45px;
+    }
+
+    .head-game img {
+        margin-top: -6%;
+        width: 75%;
+        left: 13%;
+    }
+    .game-box {
+        margin: 8%;
+    }
+    .game-box-img {
+        
+        width: 39%;
+        padding: 4%;
+        margin-top: -5%;
+        margin-left: 16.4%;
+    }
+}
