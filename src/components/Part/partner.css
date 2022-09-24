@@ -3,6 +3,16 @@
     padding-bottom: 15%;
 
 }
+.partner-head{
+    padding-bottom: 5%;
+}
+.partner-head img{
+    margin-top: -39px;
+    z-index: -8;
+    position: absolute;
+    width: 34.5%;
+    left: 32.9%;
+}
 .partner .container .row {
     padding-bottom: 5%;
 }

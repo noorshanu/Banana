@@ -1,13 +1,15 @@
 import React from 'react'
 import Part from '../../images/part.png'
+import Line from '../../images/line3.png'
 import './partner.css'
 
 function Partner() {
   return (
     <section className='partner'>
-      <div className='container'>
+      <div className='container text-center'>
         <div className='partner-head text-center'>
           <h1>Partners and Backers</h1>
+          <img src={Line} alt=''/>
 
         </div>
         <div className='row'>
