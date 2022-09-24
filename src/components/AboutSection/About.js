@@ -9,11 +9,11 @@ function About() {
         <div className='container'>
             <div className='row'>
                 <div className='col-md-6'>
-                <div className=''>
+                <div className='about-sub'>
                     <span>
                     What is 
                     </span> <br/>
-                    <h1> <img src={Logo} alt="" />?</h1>     
+                    <h1> <img src={Logo} alt="" /><span>?</span></h1>     
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
                         ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
@@ -28,12 +28,20 @@ function About() {
 
                 <div className='about-box'>
                     <div className='sub-about-box'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-                        <img src={BananaChart} alt=''/>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                        <div className='d-flex'>
+                        <p className='p-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                        <p className='p-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                        </div>
+                      <div className='text-center'>
+                      <img src={BananaChart} alt=''/>
+                      </div>
+                      
+                        <div className='d-flex'>
+                        <p className='p-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                        <p className='p-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
 
+                        </div>
+                        
                     </div>
 
                 </div>

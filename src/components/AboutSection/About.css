@@ -2,7 +2,13 @@
     
 
 }
-
+.about-sub p{
+    padding-top: 5%;
+    padding-right: 5%;
+}
+.about-sub h1{
+    padding-bottom: 5%;
+}
 .sub-about-box{
     margin: 25px;
     background: linear-gradient(180deg, #181818 0%, #111111 100%);
@@ -10,12 +16,36 @@
     box-shadow: 1px 2px 37px 8px rgb(212 169 30 / 89%);
 }
 .sub-about-box img{
-    height: 516px;
-    padding: 7%;
+    height: 410px;
+    padding: 1%;
+}
+
+.p-1{
+    position: relative;
+    top: 153px;
+    left: 62px;
+    font-size: 11px;
+}
+.p-2{
+    position: relative;
+    font-size: 11px;
+    left: 74px;
+    top: 29px;
+}
+.p-3{
+    position: relative;
+    top: -122px;
+    left: 70px;
+    max-width: 31% !important;
+}
+.p-4{
+    position: relative;
+    left: 163px;
+    top: -81px;
 
 }
 .sub-about-box p{
-    font-size: 14px;
+    font-size: 11px;
     max-width: 36%;
 }
 
