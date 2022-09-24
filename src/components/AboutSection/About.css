@@ -63,8 +63,13 @@
     padding-bottom: 5%;
 }
 
-
+.about-img-1{
+    height: 75px;
+}
 @media (max-width:768px) {
+    .about-img-1{
+        height: 35px;
+    }
     .sub-about-box p {
         font-size: 11px;
         max-width: 48%;
