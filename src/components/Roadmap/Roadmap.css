@@ -289,7 +289,7 @@ flex: 1;
         transform: translateX(0);
         width: 0.1875rem;
         height: 100%;
-        background: linear-gradient(#4161fc, #46c5e3);
+        background: linear-gradient(#e0fc41, #edea0a);
         z-index: 10 !important;
       }
       .roadmap .roadmap-road > :not(:last-child) {
@@ -315,7 +315,7 @@ flex: 1;
                 bottom: 0;
                 left: 0;
                 width: 100%;
-                background: linear-gradient(90deg, rgba(65, 97, 252, 0) 0%, #4272f8 17.5%, #45b0e8 79.48%, rgba(70, 197, 227, 0) 100%);
+                background: linear-gradient(90deg, rgba(65, 97, 252, 0) 0%, #a8cd15 17.5%, #ace845 79.48%, rgba(70, 197, 227, 0) 100%);
                 height: 0.125rem;
               }
 .roadmap .roadmap-road .left-roadmap {
@@ -359,7 +359,7 @@ flex: 1;
                 z-index: -20 !important;
                 width: 100%;
                 height: 0.375rem;
-                background: linear-gradient(90deg, #ffffff 0%, #4161fc 0.01%, #46c5e3 47.99%, #47a0f7 88.93%);
+                background: linear-gradient(90deg, #ffffff 0%, #d0fc41 0.01%, #bdc619 47.99%, #93f747 88.93%);
               }
 .roadmap .roadmap-road .roadmap-card .roadmap-mobile-line::after {
                 content: "";
@@ -368,7 +368,7 @@ flex: 1;
                 border-radius: 50%;
                 z-index: -10;
                 margin-left: -0.3rem;
-                background: linear-gradient(90deg, #ffffff 0%, #4161fc 0.01%, #46c5e3 47.99%, #47a0f7 88.93%);
+                background: linear-gradient(90deg, #ffffff 0%, #d0fc41 0.01%, #bdc619 47.99%, #93f747 88.93%);
               }
 .roadmap .roadmap-road .roadmap-card-title {
                 font-size: 1rem;
