@@ -31,7 +31,7 @@ function Hero() {
                 <div className='col-md-3'>
                   
                     <img src={HeroImg2} alt="" className='hero-img-2' />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                    <p className='hero-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
                         minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                          ex ea commodo consequat.

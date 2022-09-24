@@ -10,9 +10,12 @@
 
 
 .hero-img-2{
-    height: 175px;
+    height: 153px;
 }
-
+.hero-para{
+    padding-top: 16%;
+    text-align: end;
+}
 .connect-section{
     align-items: center;
     padding: 2% 1% 2% 1%;
