@@ -46,3 +46,14 @@
 .footer-social img{
     height: 24px;
 }
+
+@media (max-width:768px) {
+    .footer-logo{
+        height: 55px;
+ 
+    }
+
+    .footer .footer-box .container .row .col-md-3 {
+        padding-bottom: 8%;
+    }
+}

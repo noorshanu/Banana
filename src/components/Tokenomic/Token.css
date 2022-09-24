@@ -70,6 +70,17 @@ text-transform: capitalize;
 }
 
 @media (max-width:768px) {
-    
+    .head-toko h1{
+        font-size: 45px;
+    }
+    .img-1{
+        position: unset;
+    }
+    .img-3{
+        position: unset;
+    }
+    .img-2{
+        position: unset;
+    }
     
 }

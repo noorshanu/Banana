@@ -12,7 +12,7 @@ function Partner() {
           <img src={Line} alt=''/>
 
         </div>
-        <div className='row'>
+        <div className='row mob-img'>
           <div className='col-md-3 col-6'>
             <img src={Part} alt=""/>
             
@@ -33,7 +33,7 @@ function Partner() {
         </div>
 
 
-        <div className='row'>
+        <div className='row mob-img'>
           <div className='col-md-3 col-6'>
             <img src={Part} alt=""/>
             
@@ -55,7 +55,7 @@ function Partner() {
 
 
 
-        <div className='row'>
+        <div className='row mob-img'>
           <div className='col-md-3 col-6'>
             <img src={Part} alt=""/>
             

@@ -13,7 +13,7 @@ function Tokonomic() {
       
         <div className='row pt-5'>
 
-        <div className='col-md-4 '>
+        <div className='col-md-4'>
           <div className='toko-sub d-flex '>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
@@ -37,7 +37,7 @@ function Tokonomic() {
    
 
         </div>
-        <div className='col-md-4'>
+        <div className='col-md-4 '>
           <div className='toko-img'>
             <img src={Circle} alt='circle'/>
 

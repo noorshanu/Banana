@@ -16,3 +16,10 @@
 .partner .container .row {
     padding-bottom: 5%;
 }
+
+@media (max-width:768px) {
+    .mob-img img{
+        height: 142px;
+        padding-bottom: 5%;
+    }
+}
