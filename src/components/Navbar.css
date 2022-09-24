@@ -204,7 +204,7 @@ a:hover {
   }
 }
 
-@media (max-width: 798px) {
+@media (max-width: 768px) {
   .main-nav {
     height: 5rem;
     grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
@@ -226,6 +226,29 @@ a:hover {
     display: block;
     font-size: 2.5rem;
   }
+
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  .hero-section p{
+    font: 12px;
+  }
+
+  .hero-img-1 img{
+    text-align: center;
+    width: 68%;
+    padding-bottom: 6%;
+    padding-top: 5%;
+  }
+
+  
+  .hero-img-2 {
+    height: 131px;
+}
+.hero-3rd{
+  text-align: center;
+}
 }
 
 @media (max-width: 520px) {
@@ -258,6 +281,24 @@ a:hover {
   /* hero section  */
 
   .hero-section h1 {
-    font-size: 3.8rem;
+    font-size: 2rem;
   }
+  .hero-section p{
+    font: 12px;
+  }
+
+  .hero-img-1 img{
+    text-align: center;
+    width: 68%;
+    padding-bottom: 6%;
+    padding-top: 5%;
+  }
+
+  
+  .hero-img-2 {
+    height: 131px;
+}
+.hero-3rd{
+  text-align: center;
+}
 }

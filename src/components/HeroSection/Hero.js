@@ -28,7 +28,7 @@ function Hero() {
                 </div>
                 </div>
 
-                <div className='col-md-3'>
+                <div className='col-md-3 hero-3rd'>
                   
                     <img src={HeroImg2} alt="" className='hero-img-2' />
                     <p className='hero-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 

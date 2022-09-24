@@ -52,6 +52,9 @@ font-size: 75px;
     margin-left: -6px;
     height: 100%;
 }
+.game-box-title h2{
+    font-size: 1.5rem;
+}
 .game-box-para{
     padding-top: 11%;
     text-align: justify;

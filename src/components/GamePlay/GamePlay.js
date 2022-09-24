@@ -1,6 +1,9 @@
 import React from 'react'
 import Line from '../../images/line.png'
 import Tv from '../../images/icon/tv.png'
+import Hand from '../../images/icon/hand.png'
+import Flag from '../../images/icon/flag.png'
+import Skull from '../../images/icon/skull.png'
 import Lets from '../../images/button.png'
 import './Game.css'
 function GamePlay() {
@@ -38,11 +41,11 @@ function GamePlay() {
                 <div className='col-md-3'>
                 <div className='game-box text-center'>
                     <div className='game-box-img text-center'>
-                            <img src={Tv} alt='tv'/>
+                            <img src={Hand} alt='tv'/>
 
                         </div>
                         <div className='game-box-title text-center'>
-                            <h2>Virtual Competition</h2>
+                            <h2>Stake coins</h2>
                         </div>
                         <div className='game-box-para'>
                             <p>Lorem ipsum dolor sit amet, consectetur 
@@ -59,11 +62,11 @@ function GamePlay() {
                 <div className='col-md-3'>
                 <div className='game-box text-center'>
                     <div className='game-box-img text-center'>
-                            <img src={Tv} alt='tv'/>
+                            <img src={Skull} alt='tv' style={{height:'54px'}}/>
 
                         </div>
                         <div className='game-box-title text-center'>
-                            <h2>Virtual Competition</h2>
+                            <h2>Attract Apes</h2>
                         </div>
                         <div className='game-box-para'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
@@ -79,11 +82,11 @@ function GamePlay() {
                 <div className='col-md-3'>
                 <div className='game-box text-center'>
                     <div className='game-box-img text-center'>
-                            <img src={Tv} alt='tv'/>
+                            <img src={Flag} alt='tv'/>
 
                         </div>
                         <div className='game-box-title text-center'>
-                            <h2>Virtual Competition</h2>
+                            <h2>WIn Exclusive</h2>
                         </div>
                         <div className='game-box-para'>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
