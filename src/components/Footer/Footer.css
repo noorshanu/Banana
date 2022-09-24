@@ -56,4 +56,12 @@
     .footer .footer-box .container .row .col-md-3 {
         padding-bottom: 8%;
     }
+    .footer-form {
+        padding: 7% 0% 9% 0%;
+        flex-direction: column;
+    }
+    .footer-con{
+        flex-direction: column;
+        text-align: center;
+    }
 }

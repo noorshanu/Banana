@@ -44,7 +44,11 @@ function Footer() {
 
           <div className='col-md-3 col-6'>
             <div className='footer-nav'>
-              <span>Subscribe to our newsletter to get all the updates and announcements</span>
+              <div>
+              <span>Subscribe to our newsletter to get all the 
+                updates and announcements</span>
+              </div>
+              
               <div className='d-flex footer-form justify-content-evenly'>
                 <input type="text" name="" value=""/>
                 <button>Subscribe</button>
@@ -63,7 +67,7 @@ function Footer() {
           </div>
 
         </div>
-<div className='d-flex justify-content-evenly fs-14'>
+<div className='d-flex justify-content-evenly fs-14 footer-con'>
   <p>
   Business Inquiries - business@bananacoin.com
   </p>
