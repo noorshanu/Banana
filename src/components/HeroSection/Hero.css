@@ -69,3 +69,13 @@
     margin-block-start:0px !important;
     justify-content: center;
 }
+
+@media (max-width:768px) {
+    .side-left{
+      display: none;
+    }
+    .side-right{
+        display: none;
+    }
+    
+}
