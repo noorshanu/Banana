@@ -2,7 +2,18 @@
     padding: 4% 3% 3% 4%;
 }
 
-
+.side-left{
+    position: absolute;
+    top: -44%;
+    left: 17px;
+    height: fit-content;
+}
+.side-right{
+    position: absolute;
+    top: -44%;
+    right: 17px;
+    height: fit-content;
+}
 .hero-img-1 img{
     height: max-content;
     width: 100%;

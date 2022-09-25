@@ -2,12 +2,16 @@ import React from 'react'
 import './Hero.css'
 import HeroImg from '../../images/hero.png'
 import HeroImg2 from '../../images/hero1.png'
+import Side from '../../images/side-1.png'
 import ConnectSection from './ConnectSection'
 
 function Hero() {
   return (
     <>
+    <img className='side-left'  src={Side}  alt=''/>
+    <img className='side-right'  src={Side}  alt=''/>
     <section className='hero-section'>
+
         <div className='container'>
             <div className='row'>
                 <div className='col-md-3 '>
