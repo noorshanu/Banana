@@ -1,7 +1,8 @@
 import React from 'react'
 import './Token.css'
-import Skull from '../../images/skull.png'
-import Circle from '../../images/circle.png'
+// import Skull from '../../images/skull.png'
+// import Circle from '../../images/circle.png'
+import Tokoimg from '../../images/tokeno.png'
 
 function Tokonomic() {
   return (
@@ -11,9 +12,11 @@ function Tokonomic() {
         <h1>TOKENOMICS</h1>
         </div>
       
-        <div className='row pt-5'>
+    <div className='text-center '>
+    <img src={Tokoimg} alt='' className='toko-img-1' />
+    </div>
 
-        <div className='col-md-4'>
+        {/* <div className='col-md-4'>
           <div className='toko-sub d-flex '>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
@@ -63,10 +66,8 @@ function Tokonomic() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
            
-          </div>
-
-        </div>
-        </div>
+          </div> */}
+     
 
       </div>
       
