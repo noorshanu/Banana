@@ -6,7 +6,7 @@ import GamePlay from "./components/GamePlay/GamePlay";
 import Tokonomic from "./components/Tokenomic";
 import Roadmap from "./components/Roadmap/Roadmap";
 import Footer from "./components/Footer/Footer";
-import Partner from "./components/Part/Partner";
+// import Partner from "./components/Part/Partner";
 
 
 
@@ -19,7 +19,7 @@ function App() {
     <GamePlay/>
     <Tokonomic/>
     <Roadmap/>
-    <Partner/>
+    {/* <Partner/> */}
  
     <Footer/>
     

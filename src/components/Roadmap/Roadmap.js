@@ -1,7 +1,8 @@
 import React from 'react'
 import './Roadmap.css'
 import Line from '../../images/line2.png'
-import RoadmapImg from '../../images/roadmap-connector.png'
+// import RoadmapImg from '../../images/roadmap-connector.png'
+import Roadmap1 from '../../images/roadmap1.png'
 
 function Roadmap() {
   return (
@@ -13,7 +14,12 @@ function Roadmap() {
           <h1>ROADMAP</h1>
           <img src={Line} alt=''/>
         </div>
-      <main className='roadmap-road'>
+
+        <div className='container text-center'>
+          <img src={Roadmap1} alt='roadmap' className='road-img-1'/>
+
+        </div>
+      {/* <main className='roadmap-road'>
 
       <div className="left-roadmap">
               <div className="roadmap-card">
@@ -57,10 +63,10 @@ function Roadmap() {
                     2. Forex Trading features in the platform - February 2023
 
                   </p>
-                </div>
+                </div> */}
 
                 {/* <!-- mobres --> */}
-                <div className="road-mob">
+                {/* <div className="road-mob">
                   <p className="roadmap-date weight-7">Phase 2 2022 
 </p>
                   <img
@@ -152,7 +158,7 @@ function Roadmap() {
 
        
             </div>
-      </main>
+      </main> */}
       </div>
 
 
