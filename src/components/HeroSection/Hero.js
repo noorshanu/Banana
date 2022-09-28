@@ -14,12 +14,12 @@ function Hero() {
 
         <div className='container'>
             <div className='row'>
-                <div className='col-md-3 '>
-                    <h1>Future of 
+                <div className='col-md-2 '>
+                    <h1 className='hero-top-h'>Future of 
                             Play To Earn</h1>
-                    <p>With banana coin you can stake your earning to win ApeCoins, and even BAYC NFTs.</p>
+                    <p className='hero-top-p'>With banana coin you can stake your earning to win ApeCoins, and even BAYC NFTs.</p>
                         <div>
-                            <span>Powered by </span> <br/>
+                            <span className='hero-top-s1'>Powered by </span> <br/>
                             <span>BNB Chain</span>
 
                             </div>
