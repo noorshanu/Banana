@@ -446,10 +446,10 @@ color: #FFFFFF;
   
       background-image: url(../../images/game.png);
    
-      background-size: contain;
-      background-repeat: no-repeat;
+      background-size: inherit;
+      background-repeat: repeat-y;
       background-position: center;
-
+  
   
   
   }
