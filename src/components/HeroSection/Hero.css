@@ -52,6 +52,7 @@
     font-size: 25px;
 }
 .connect-head{
+    text-align: start;
     padding-top: 6%;
     padding-right: 30%;
 }
@@ -73,7 +74,7 @@
     padding-left: 0px !important;
     margin: 0px !important;
     margin-block-start:0px !important;
-    justify-content: center;
+
     padding-right: 30%;
 }
 .hero-top-h{
