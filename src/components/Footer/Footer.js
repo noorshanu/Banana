@@ -1,10 +1,14 @@
 import React from 'react'
 import Logo from '../../images/logo.png'
-import Insta from '../../images/icon/insta.png'
-import Tweet from '../../images/icon/tweet.png'
-import Git from '../../images/icon/github.png'
-import Discord from '../../images//icon/discord.png'
-import Youtube from '../../images/icon/youtube.png'
+import Insta from '../../images/icon/insta.svg'
+import Tweet from '../../images/icon/tweet.svg'
+import Git from '../../images/icon/github.svg'
+import Discord from '../../images//icon/discord.svg'
+import Youtube from '../../images/icon/youtube.svg'
+import {
+  FaTelegram,
+ 
+} from 'react-icons/fa'
 import './Footer.css'
 
 function Footer() {
@@ -56,6 +60,7 @@ function Footer() {
               </div>
               <div className='footer-social d-flex justify-content-evenly'>
                 <a href='/'><img src={Insta} alt=''/></a>
+                <a href='/' style={{fontSize:"26px"}}><FaTelegram/></a>
                 <a href='/'><img src={Tweet} alt=''/></a>
                 <a href='/'><img src={Discord} alt=''/></a>
                 <a href='/'><img src={Git} alt=''/></a>
