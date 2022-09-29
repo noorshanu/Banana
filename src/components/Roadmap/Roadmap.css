@@ -447,7 +447,7 @@ color: #FFFFFF;
       background-image: url(../../images/game.png);
    
       background-size: contain;
-      /* background-repeat: no-repeat; */
+      background-repeat: no-repeat;
       background-position: center;
 
   

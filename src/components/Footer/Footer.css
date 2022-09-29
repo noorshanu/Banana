@@ -49,7 +49,7 @@
 .footer{
     background-image: url(../../images/game.png);
    
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 
 }
