@@ -56,7 +56,16 @@
 .m-1 p{
     padding-right: 10%;
     padding-top: 5%;
+    font-size: 15px;
 
+}
+.m-1 h2{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 111%;
+    color: #FFFFFF;
 }
 .mission{
     padding-top: 8%;
@@ -67,6 +76,11 @@
     height: 75px;
 }
 @media (max-width:768px) {
+    .m-1 h2{
+        
+        font-size: 18px;
+    
+    }
     .about-img-1{
         height: 35px;
     }

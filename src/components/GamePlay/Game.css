@@ -31,14 +31,14 @@ font-size: 75px;
     background: linear-gradient(180deg, #E0E0E0 0%, #ABABAB 100%);
     border-radius: 40px;
     padding: 0% 2% 5% 2%;
-    margin: 2%;
+    margin: 8%;
 }
 .game-box-img{
     position: absolute;
-    width: 10%;
+    width: 9%;
     padding: 2%;
     margin-top: -5%;
-    margin-left: 4.4%;
+    margin-left: 3.4%;
     background: linear-gradient(180deg, #3D3D3D 0%, #000000 100%);
     box-shadow: 0px 13px 51px rgb(0 0 0 / 50%);
     border-radius: 20px;
@@ -53,7 +53,15 @@ font-size: 75px;
     height: 100%;
 }
 .game-box-title h2{
-    font-size: 1.5rem;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 100%;
+    text-align: center;
+    word-spacing: 30px;
+    text-transform: uppercase;
+    color: #000000;
 }
 .game-box-para{
     padding-top: 11%;
@@ -79,6 +87,18 @@ font-size: 75px;
 font-size: 20px;
 }
 
+@media only screen and (min-width: 1550px) and (max-width: 1750px) {
+    .game-box-img{
+       
+        width: 8%;
+   
+      
+        margin-left: 3.4%;
+        
+    }
+	
+}
+
 @media (max-width:768px) {
     .head-game h1{
         font-size: 45px;
@@ -98,5 +118,11 @@ font-size: 20px;
         padding: 4%;
         margin-top: -5%;
         margin-left: 16.4%;
+    }
+
+    .game-box-title h2{
+  
+        font-size: 15px;
+    
     }
 }
