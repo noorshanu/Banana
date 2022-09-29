@@ -20,7 +20,7 @@ function Hero() {
                     <p className='hero-top-p'>With banana coin you can stake your earning to win ApeCoins, and even BAYC NFTs.</p>
                         <div>
                             <span className='hero-top-s1'>Powered by </span> <br/>
-                            <span>BNB Chain</span>
+                            <span className='hero-top-s2'>BNB Chain</span>
 
                             </div>
 
