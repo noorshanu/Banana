@@ -96,6 +96,14 @@ font-size: 20px;
         margin-left: 3%;
         
     }
+
+    .head-game img {
+        margin-top: -2.5%;
+        z-index: -8;
+        position: absolute;
+        left: 37%;
+        box-shadow: 10px 5px 49px 4px rgb(213 170 30 / 93%);
+    }
 	
 }
 
