@@ -87,13 +87,13 @@ font-size: 75px;
 font-size: 20px;
 }
 
-@media only screen and (min-width: 1550px) and (max-width: 1750px) {
+@media only screen and (min-width: 1550px) and (max-width: 1950px) {
     .game-box-img{
        
         width: 8%;
    
       
-        margin-left: 3.4%;
+        margin-left: 3%;
         
     }
 	
