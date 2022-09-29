@@ -441,3 +441,15 @@ color: #FFFFFF;
   .road-img-1{
     width: 94%;
   }
+
+  .roadmap{
+  
+      background-image: url(../../images/game.png);
+   
+      background-size: contain;
+      /* background-repeat: no-repeat; */
+      background-position: center;
+
+  
+  
+  }

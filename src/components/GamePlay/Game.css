@@ -67,8 +67,10 @@ font-size: 75px;
     padding-top: 11%;
     text-align: justify;
     padding-left: 7%;
-    font-size: 15px;
+    font-size: 14px;
     padding-right: 7%;
+    font-weight: 500;
+    color: #000;
 }
 .lets-talk{
     background-image: url(../../images/game.png);

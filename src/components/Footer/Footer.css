@@ -46,6 +46,14 @@
 .footer-social img{
     height: 24px;
 }
+.footer{
+    background-image: url(../../images/game.png);
+   
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+
+}
 
 @media (max-width:768px) {
     .footer-logo{
