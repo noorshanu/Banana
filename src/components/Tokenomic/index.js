@@ -12,7 +12,7 @@ function Tokonomic() {
         <h1>TOKENOMICS</h1>
         </div>
       
-    <div className='text-center pt-5 pb-5 '>
+    <div className='text-center pt-8 pb-8 '>
     <img src={Tokoimg} alt='' className='toko-img-1' />
     </div>
 
