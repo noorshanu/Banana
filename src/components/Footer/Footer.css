@@ -49,9 +49,8 @@
 .footer{
     background-image: url(../../images/game.png);
    
-    background-size: contain;
-    /* background-repeat: no-repeat; */
-    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
