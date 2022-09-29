@@ -1,9 +1,9 @@
 import React from 'react'
 import Line from '../../images/line.png'
-import Tv from '../../images/icon/tv.png'
-import Hand from '../../images/icon/hand.png'
-import Flag from '../../images/icon/flag.png'
-import Skull from '../../images/icon/skull.png'
+import Tv from '../../images/icon/tv.svg'
+import Hand from '../../images/icon/hand.svg'
+import  Skull from '../../images/icon/flag.svg'
+import Flag from '../../images/icon/skull.svg'
 import Lets from '../../images/button.png'
 import './Game.css'
 function GamePlay() {
